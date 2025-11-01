@@ -258,3 +258,9 @@ cc_test(
         ":tbb",
     ],
 )
+
+alias(
+    name = "onetbb",
+    actual = ":tbb",
+    visibility = ["//visibility:public"],
+)

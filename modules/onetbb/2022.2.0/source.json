@@ -4,7 +4,7 @@
     "strip_prefix": "oneTBB-2022.2.0",
     "patch_strip": 0,
     "overlay": {
-        "BUILD.bazel": "sha256-KU48lAhZo3y+r0lo44L8N7Rv26H6Zl84ZN0SPjQPx1U=",
+        "BUILD.bazel": "sha256-XE1idWeYKaLAWuddvPprzHfUM5TQUzb3KC8EwzHgUqY=",
         "MODULE.bazel": "sha256-WNOp+UFC30zSzJQcykgIr9sNcVYb5eWQMDXMnwBvOHo="
     }
 }
