@@ -4,7 +4,7 @@
     "strip_prefix": "OpenJPH-0.27.0",
     "patch_strip": 0,
     "overlay": {
-        "BUILD.bazel": "sha256-6wjVS+p1k+T11fu4Mqn/6uYIMUffyEZ7WFvHRh2Xvhk=",
+        "BUILD.bazel": "sha256-WneCk/UZd1N8ennqK2kEAhQUncxchnjBkJYgv82AoII=",
         "MODULE.bazel": "sha256-EyajfdPiue+Ck/T/Zpf8ht9dsNDrnQnOelUY1A9wyZ8="
     }
 }

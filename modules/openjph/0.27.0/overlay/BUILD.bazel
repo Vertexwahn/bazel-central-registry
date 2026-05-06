@@ -58,7 +58,7 @@ cc_library(
         "src/core/coding/ojph_block_encoder.cpp",
         "src/core/others/ojph_arch.cpp",
         "src/core/others/ojph_file.cpp",
-        "src/core/others/ojph_mem.c",
+        "src/core/others/ojph_mem_c.c",
         "src/core/others/ojph_mem.cpp",
         "src/core/others/ojph_message.cpp",
         "src/core/transform/ojph_colour.cpp",
