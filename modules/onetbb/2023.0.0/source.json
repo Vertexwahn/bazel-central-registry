@@ -1,0 +1,10 @@
+{
+    "url": "https://github.com/uxlfoundation/oneTBB/archive/refs/tags/v2023.0.0.tar.gz",
+    "integrity": "sha256-qsdNT+RzTWWS5EcKQw+B5fNpEUPHwSZAb3HMUb/mEdQ=",
+    "strip_prefix": "oneTBB-2023.0.0",
+    "patch_strip": 0,
+    "overlay": {
+        "BUILD.bazel": "sha256-kxjQshXQSk6tMU1TB2aTnBiOQEiFlz+JPfrsWLyjt3A=",
+        "MODULE.bazel": "sha256-45Z8lb5rzNCl4WJ5Wy3xUiR6mP8u8GUbXL1fKwXDcWA="
+    }
+}
