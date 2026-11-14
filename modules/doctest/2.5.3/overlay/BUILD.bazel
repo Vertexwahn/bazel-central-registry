@@ -1,4 +1,28 @@
+load("@package_metadata//licenses/rules:license.bzl", "license")
+load("@package_metadata//purl:purl.bzl", "purl")
+load("@package_metadata//rules:package_metadata.bzl", "package_metadata")
 load("@rules_cc//cc:cc_library.bzl", "cc_library")
+
+package(default_package_metadata = [":package_metadata"])
+
+exports_files(["LICENSE.txt"])
+
+license(
+    name = "license",
+    kind = "@package_metadata//licenses/spdx:MIT",
+    text = "LICENSE.txt",
+    visibility = ["//visibility:public"],
+)
+
+package_metadata(
+    name = "package_metadata",
+    attributes = [":license"],
+    purl = purl.bazel(
+        module_name(),
+        module_version(),
+    ),
+    visibility = ["//visibility:public"],
+)
 
 # The canonical targets live in //doctest (overlay/doctest/BUILD.bazel).
 # These root aliases exist so that both the legacy @doctest//doctest:main path
