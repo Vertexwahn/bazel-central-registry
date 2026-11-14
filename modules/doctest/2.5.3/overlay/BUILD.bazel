@@ -29,18 +29,18 @@ package_metadata(
 # and the module-default @doctest//:main path continue to work.
 cc_library(
     name = "doctest",
-    deps = ["//doctest:doctest"],
     visibility = ["//visibility:public"],
+    deps = ["//doctest"],
 )
 
 cc_library(
     name = "main",
-    deps = ["//doctest:main"],
     visibility = ["//visibility:public"],
+    deps = ["//doctest:main"],
 )
 
 cc_library(
     name = "custom_main",
-    deps = ["//doctest:custom_main"],
     visibility = ["//visibility:public"],
+    deps = ["//doctest:custom_main"],
 )
